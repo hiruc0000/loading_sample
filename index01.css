@@ -381,7 +381,7 @@ body {
   border-bottom-color: #ac4040;
   border-radius: 50%;
   animation-name: spin-type2;
-  animation-duration: 1.2s;
+  animation-duration: 0.8s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
 }
@@ -399,10 +399,12 @@ body {
 @keyframes spin-type2 {
   0%{
     transform: rotate(0deg);
+  }
+  45% {
     border-top-color: #ac4040;
     border-bottom-color: #ac4040;
   }
-  50%,55% {
+    70% {
     border-top-color: #bfaeae;
     border-bottom-color: #bfaeae;
   }
